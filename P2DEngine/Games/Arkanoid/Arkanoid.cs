@@ -24,7 +24,10 @@ namespace P2DEngine
             dxX = 6;
             dyY = 6;
 
-            P2DAudioManager.LoopAudio("background", ".mp3"); // Tocamos el sonido.
+            P2DAudioManager.Play("background");
+
+            //Claudio
+            //P2DAudioManager.LoopAudio("background", ".mp3"); // Tocamos el sonido.
         }
 
         protected override void ProcessInput()
